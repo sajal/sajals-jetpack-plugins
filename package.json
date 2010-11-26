@@ -1,0 +1,9 @@
+{
+    "id": "jid0-lkUGN44p7o8RFbpJXyEcfvTJAJw", 
+    "dependencies": [
+        "jetpack-core", 
+        "addon-kit"
+    ], 
+    "description": "Sajal's plugins", 
+    "author": "Sajal Kayan (http://www.sajalkayan.com)"
+}
