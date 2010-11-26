@@ -13,7 +13,12 @@
   ondialogcancel="return onCancel();" 
   persist="screenX screenY width height" 
   windowtype="myDialogWindowType"> 
- 
+ <script type="text/javascript">
+function onCancel() {
+  window.arguments[0].out = null;
+  return true;
+}
+ </script>
   <grid> 
     <columns><column/><column/><column/></columns> 
     <rows> 
