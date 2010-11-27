@@ -1,7 +1,7 @@
 usage :-
 
     let requestinfo = require("requestinfo");
-
+    let var observer = require("observer-service");
 
     function callback(subject, data) {
       var req = new requestinfo.info(subject);
